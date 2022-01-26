@@ -15,3 +15,6 @@ forge 'https://forge.puppet.com'
 #mod 'apache',
 #  git:    'https://github.com/puppetlabs/puppetlabs-apache',
 #  branch: 'docs_experiment'
+
+mod 'puppet_data_server'.
+  git:    'https://github.com/puppetlabs/puppetlabs-puppet_data_service.git'
