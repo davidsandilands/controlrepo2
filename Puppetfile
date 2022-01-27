@@ -26,6 +26,6 @@ mod 'WhatsARanjit-node_manager', '0.7.4'
 #  git:    'https://github.com/puppetlabs/puppetlabs-apache',
 #  branch: 'docs_experiment'
 
-mod 'puppetlabs-puppet_data_server',
+mod 'puppetlabs-puppet_data_service',
   git:    'https://github.com/puppetlabs/puppetlabs-puppet_data_service.git',
   branch: 'main'
