@@ -15,6 +15,7 @@ mod 'puppetlabs-ruby_task_helper', '0.5.1'
 mod 'puppetlabs-stdlib', '6.5.0'
 mod 'puppetlabs-translate', '2.2.0'
 mod 'WhatsARanjit-node_manager', '0.7.4'
+mod 'puppetlabs-motd', '6.1.0'
 
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
