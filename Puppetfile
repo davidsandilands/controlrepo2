@@ -4,7 +4,7 @@ forge 'https://forge.puppet.com'
 # Versions should be updated to be the latest at the time you start
 #mod 'puppetlabs/inifile', '5.0.1'
 #mod 'puppetlabs/stdlib',  '7.0.1'
-#mod 'puppetlabs/concat',  '7.0.1'
+#mod 'puppetlabs/concat',  '7.0.1'https://github.com/davidsandilands/controlrepo2/blob/production/Puppetfile
 
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
@@ -17,5 +17,5 @@ forge 'https://forge.puppet.com'
 #  branch: 'docs_experiment'
 
 mod 'puppet_data_server',
-  git:    'https://github.com/puppetlabs/puppetlabs-puppet_data_service.git'
+  git:    'https://github.com/puppetlabs/puppetlabs-puppet_data_service.git',
   branch: 'main'
