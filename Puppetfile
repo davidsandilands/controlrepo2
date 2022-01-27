@@ -18,3 +18,4 @@ forge 'https://forge.puppet.com'
 
 mod 'puppet_data_server',
   git:    'https://github.com/puppetlabs/puppetlabs-puppet_data_service.git'
+  branch: 'main'
