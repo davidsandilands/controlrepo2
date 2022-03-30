@@ -31,10 +31,10 @@ mod 'puppetlabs-puppet_data_service',
   git:    'https://github.com/puppetlabs/puppetlabs-puppet_data_service.git',
   branch: 'main'
 
-mod 'puppet_operational_dashboards'
+mod 'puppet_operational_dashboards',
   git:    'https://github.com/puppetlabs/puppet_operational_dashboards.git',
   branch: 'main'
 
-mod 'influxdb'
+mod 'influxdb',
   git:    'https://github.com/puppetlabs/influxdb.git',
   branch: 'main'
