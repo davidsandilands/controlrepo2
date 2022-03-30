@@ -30,3 +30,7 @@ mod 'puppetlabs-motd', '6.1.0'
 mod 'puppetlabs-puppet_data_service',
   git:    'https://github.com/puppetlabs/puppetlabs-puppet_data_service.git',
   branch: 'main'
+
+mod 'puppet_operational_dashboards.git'
+  git:    'https://github.com/puppetlabs/puppet_operational_dashboards.git',
+  branch: 'main'
