@@ -7,7 +7,6 @@ forge 'https://forge.puppet.com'
 #mod 'puppetlabs/concat',  '7.0.1'https://github.com/davidsandilands/controlrepo2/blob/production/Puppetfile
 mod 'puppet-cassandra', '3.1.0'
 mod 'puppetlabs-apply_helpers', '0.2.1'
-mod 'puppetlabs-apt', '7.7.0'
 mod 'puppetlabs-bolt_shim', '0.3.2'
 mod 'puppetlabs-firewall', '2.8.0'
 mod 'puppetlabs-inifile', '4.4.0'
