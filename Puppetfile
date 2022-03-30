@@ -16,6 +16,11 @@ mod 'puppetlabs-stdlib', '6.5.0'
 mod 'puppetlabs-translate', '2.2.0'
 mod 'WhatsARanjit-node_manager', '0.7.4'
 mod 'puppetlabs-motd', '6.1.0'
+mod 'puppet-grafana', '10.0.1'
+mod 'puppet-telegraf', '4.1.0'
+mod 'puppetlabs-apt', '8.3.0'
+mod 'puppetlabs-inifile', '5.2.0'
+mod 'puppetlabs-influxdb', '0.3.0'
 
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
@@ -33,8 +38,4 @@ mod 'puppetlabs-puppet_data_service',
 
 mod 'puppet_operational_dashboards',
   git:    'https://github.com/puppetlabs/puppet_operational_dashboards.git',
-  branch: 'main'
-
-mod 'influxdb',
-  git:    'https://github.com/puppetlabs/influxdb.git',
   branch: 'main'
