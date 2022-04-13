@@ -22,6 +22,7 @@ mod 'puppetlabs-influxdb', '0.3.0'
 mod 'puppetlabs-splunk_hec', '1.2.1'
 mod 'puppet-splunk', '9.0.0'
 mod 'puppet-archive', '6.0.2'
+mod 'puppetlabs-splunk_hec', '1.2.1'
 
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
