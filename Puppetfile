@@ -4,7 +4,7 @@ forge 'https://forge.puppet.com'
 # Versions should be updated to be the latest at the time you start
 #mod 'puppetlabs/inifile', '5.0.1'
 #mod 'puppetlabs/stdlib',  '7.0.1'
-#mod 'puppetlabs/concat',  '7.0.1'https://github.com/davidsandilands/controlrepo2/blob/production/Puppetfile
+mod 'puppetlabs-concat', '7.1.1'
 mod 'puppet-cassandra', '3.1.0'
 mod 'puppetlabs-apply_helpers', '0.2.1'
 mod 'puppetlabs-bolt_shim', '0.3.2'
@@ -19,6 +19,8 @@ mod 'puppet-telegraf', '4.1.0'
 mod 'puppetlabs-apt', '8.3.0'
 mod 'puppetlabs-inifile', '5.2.0'
 mod 'puppetlabs-influxdb', '0.3.0'
+mod 'puppetlabs-splunk_hec', '1.2.1'
+mod 'puppet-splunk', '9.0.0'
 
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
