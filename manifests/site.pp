@@ -30,7 +30,7 @@ node default {
   #   class { 'my_class': }
   $classes = getvar('external.pds.classes')
   
-  if ($classes =! undef) {
+  if ($classes != undef) {
     include $classes
   }
 }
