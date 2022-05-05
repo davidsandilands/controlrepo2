@@ -28,9 +28,6 @@ node default {
   # This is where you can declare classes for all nodes.
   # Example:
   #   class { 'my_class': }
-  $classes = getvar('facts.external.pds.classes')
-  
-  if ($classes != undef) {
-    include $classes
-  }
+# Whatever classes are defined in the PDS, include them.
+include(pick(getvar('trusted.external.pds.classes'), []))
 }
