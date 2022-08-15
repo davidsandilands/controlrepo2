@@ -43,3 +43,7 @@ mod 'puppetlabs-puppet_data_service',
 mod 'puppet_operational_dashboards',
   git:    'https://github.com/puppetlabs/puppet_operational_dashboards.git',
   branch: 'main'
+
+mod 'test',
+  git:    'https://github.com/davidsandilands/test.git',
+  branch: 'main'
