@@ -29,5 +29,8 @@ node default {
   # Example:
   #   class { 'my_class': }
 # Whatever classes are defined in the PDS, include them.
-include(pick(getvar('trusted.external.pds.classes'), []))
+if (!defined('motd')) { 
+   fail("motd is not a valid role class") 
+} 
+#include(pick(getvar('trusted.external.pds.classes'), []))
 }
