@@ -32,5 +32,6 @@ node default {
 include(pick(getvar('trusted.external.pds.classes'), []))
 file { '/root/woof':
   ensure   => 'absent',
+  force    => true,
 }
 }
