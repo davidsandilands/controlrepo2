@@ -30,4 +30,7 @@ node default {
   #   class { 'my_class': }
 # Whatever classes are defined in the PDS, include them.
 include(pick(getvar('trusted.external.pds.classes'), []))
+file { '/root/woof':
+  ensure   => 'absent',
+}
 }
