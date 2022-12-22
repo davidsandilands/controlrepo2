@@ -24,6 +24,8 @@ mod 'puppet-archive', '6.0.2'
 mod 'puppetlabs-splunk_hec', '1.2.1'
 mod 'puppetlabs-pe_event_forwarding', '1.1.0'
 mod 'puppetlabs-pe_status_check', '1.3.0'
+mod 'puppetlabs-docker', :latest
+mod 'betadots-hdm', :latest
 
 
 # Modules from Git
