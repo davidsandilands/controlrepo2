@@ -23,3 +23,9 @@ hierarchy:
       # raise an exception and halt. Setting `on_config_absent` to "continue"
       # will cause the backend to instead return `not_found` and continue.
       on_config_absent: "continue"
+  - name: "OS family"
+    data_hash: yaml_data
+    path: "os/${facts.os.family}"
+  - name: "Common data" 
+    data_hash: yaml_data
+    path: "common.yaml" 
