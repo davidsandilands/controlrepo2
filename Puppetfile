@@ -31,6 +31,7 @@ mod 'puppet-systemd', :latest
 mod 'puppetlabs-powershell', :latest
 mod 'puppetlabs-registry', :latest
 mod 'puppetlabs-vcsrepo', :latest
+mod 'puppetlabs-pwshlib', :latest
 
 
 # Modules from Git
