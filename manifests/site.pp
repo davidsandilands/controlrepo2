@@ -30,8 +30,9 @@ node default {
   #   class { 'my_class': }
 # Whatever classes are defined in the PDS, include them.
 include(pick(getvar('trusted.external.pds.classes'), []))
-file { '/root/woof':
-  ensure   => 'absent',
-  force    => true,
 }
+
+node pe-server-0-9810be.sg5cuvyxcqvufj45swzvujbded.zx.internal.cloudapp.net {
+class { 'hdm':
+  version => '0.0.4'
 }
