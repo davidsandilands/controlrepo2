@@ -5,7 +5,6 @@ forge 'https://forge.puppet.com'
 #mod 'puppetlabs/inifile', :latest
 #mod 'puppetlabs/stdlib',  :latest
 mod 'puppetlabs-concat', :latest
-mod 'puppet-cassandra', :latest
 mod 'puppetlabs-apply_helpers', :latest
 mod 'puppetlabs-bolt_shim', :latest
 mod 'puppetlabs-firewall', :latest
@@ -16,7 +15,7 @@ mod 'WhatsARanjit-node_manager', :latest
 mod 'puppetlabs-motd', :latest
 mod 'puppet-grafana', :latest
 mod 'puppet-telegraf', :latest
-mod 'puppetlabs-apt', :latest
+mod 'puppetlabs-apt', :8.5.0
 mod 'puppetlabs-inifile', :latest
 mod 'puppetlabs-influxdb', :latest
 mod 'puppet-splunk', :latest
@@ -24,8 +23,14 @@ mod 'puppet-archive', :latest
 mod 'puppetlabs-splunk_hec', :latest
 mod 'puppetlabs-pe_event_forwarding', :latest
 mod 'puppetlabs-pe_status_check', :latest
-mod 'puppetlabs-docker', :latest
+mod 'puppetlabs-docker', '4.4.0'
 mod 'betadots-hdm', :latest
+mod 'golja-gnupg', :latest
+mod 'puppet-rvm', :latest
+mod 'puppet-systemd', :latest
+mod 'puppetlabs-powershell', :latest
+mod 'puppetlabs-registry', :latest
+mod 'puppetlabs-vcsrepo', :latest
 
 
 # Modules from Git
