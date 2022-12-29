@@ -2,28 +2,28 @@ forge 'https://forge.puppet.com'
 
 # Modules from the Puppet Forge
 # Versions should be updated to be the latest at the time you start
-#mod 'puppetlabs/inifile', '5.0.1'
-#mod 'puppetlabs/stdlib',  '7.0.1'
-mod 'puppetlabs-concat', '7.1.1'
-mod 'puppet-cassandra', '3.1.0'
-mod 'puppetlabs-apply_helpers', '0.2.1'
-mod 'puppetlabs-bolt_shim', '0.3.2'
-mod 'puppetlabs-firewall', '2.8.0'
-mod 'puppetlabs-ruby_task_helper', '0.5.1'
-mod 'puppetlabs-stdlib', '6.5.0'
-mod 'puppetlabs-translate', '2.2.0'
-mod 'WhatsARanjit-node_manager', '0.7.4'
-mod 'puppetlabs-motd', '6.1.0'
-mod 'puppet-grafana', '10.0.1'
-mod 'puppet-telegraf', '4.1.0'
-mod 'puppetlabs-apt', '8.3.0'
-mod 'puppetlabs-inifile', '5.2.0'
-mod 'puppetlabs-influxdb', '0.3.0'
-mod 'puppet-splunk', '9.0.0'
-mod 'puppet-archive', '6.0.2'
-mod 'puppetlabs-splunk_hec', '1.2.1'
-mod 'puppetlabs-pe_event_forwarding', '1.1.0'
-mod 'puppetlabs-pe_status_check', '1.3.0'
+#mod 'puppetlabs/inifile', :latest
+#mod 'puppetlabs/stdlib',  :latest
+mod 'puppetlabs-concat', :latest
+mod 'puppet-cassandra', :latest
+mod 'puppetlabs-apply_helpers', :latest
+mod 'puppetlabs-bolt_shim', :latest
+mod 'puppetlabs-firewall', :latest
+mod 'puppetlabs-ruby_task_helper', :latest
+mod 'puppetlabs-stdlib', :latest
+mod 'puppetlabs-translate', :latest
+mod 'WhatsARanjit-node_manager', :latest
+mod 'puppetlabs-motd', :latest
+mod 'puppet-grafana', :latest
+mod 'puppet-telegraf', :latest
+mod 'puppetlabs-apt', :latest
+mod 'puppetlabs-inifile', :latest
+mod 'puppetlabs-influxdb', :latest
+mod 'puppet-splunk', :latest
+mod 'puppet-archive', :latest
+mod 'puppetlabs-splunk_hec', :latest
+mod 'puppetlabs-pe_event_forwarding', :latest
+mod 'puppetlabs-pe_status_check', :latest
 mod 'puppetlabs-docker', :latest
 mod 'betadots-hdm', :latest
 
