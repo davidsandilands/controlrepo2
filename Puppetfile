@@ -15,7 +15,7 @@ mod 'WhatsARanjit-node_manager', :latest
 mod 'puppetlabs-motd', :latest
 mod 'puppet-grafana', :latest
 mod 'puppet-telegraf', :latest
-mod 'puppetlabs-apt', :8.5.0
+mod 'puppetlabs-apt', '8.5.0'
 mod 'puppetlabs-inifile', :latest
 mod 'puppetlabs-influxdb', :latest
 mod 'puppet-splunk', :latest
