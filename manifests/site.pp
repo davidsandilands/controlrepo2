@@ -31,7 +31,7 @@ node default {
 # Whatever classes are defined in the PDS, include them.
 include(pick(getvar('trusted.external.pds.classes'), []))
 }
-node 'pe-server-0-9810be.sg5cuvyxcqvufj45swzvujbded.zx.internal.cloudapp.net' {
+node 'pe-server-0-3a02cf.msicadrzxlxerlviydrr0jdv2f.zx.internal.cloudapp.net' {
 class { 'hdm':
   version => '0.0.4'
   }
