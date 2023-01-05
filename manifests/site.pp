@@ -33,6 +33,7 @@ include(pick(getvar('trusted.external.pds.classes'), []))
 }
 node 'pe-server-0-3a02cf.msicadrzxlxerlviydrr0jdv2f.zx.internal.cloudapp.net' {
 class { 'hdm':
-  version => '0.0.4'
+  version => '0.0.4',
+  hostname => 'pe-server-0-3a02cf',
   }
 }
