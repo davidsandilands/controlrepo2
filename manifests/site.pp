@@ -38,6 +38,6 @@ class { 'hdm':
   hostname => 'pe-server-0-3a02cf',
   }
 }
-node '*node*' { 
+node *node* { 
     include icinga2
 }
