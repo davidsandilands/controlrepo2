@@ -34,6 +34,15 @@ mod 'puppetlabs-vcsrepo', :latest
 mod 'puppetlabs-pwshlib', :latest
 
 
+mod 'puppetlabs-registry', :latest
+mod 'icinga-icinga2', :latest
+mod 'puppetlabs-reboot', :latest
+mod 'puppetlabs-peadm', :latest
+mod 'puppetlabs-inifile', :latest
+mod 'puppetlabs-package', :latest
+mod 'puppetlabs-service', :latest
+mod 'puppet-format', :latest
+
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
 #mod 'apache',
