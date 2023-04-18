@@ -30,10 +30,14 @@ node default {
   #   class { 'my_class': }
 # Whatever classes are defined in the PDS, include them.
 include(pick(getvar('trusted.external.pds.classes'), []))
+include motd
 }
 node 'pe-server-0-3a02cf.msicadrzxlxerlviydrr0jdv2f.zx.internal.cloudapp.net' {
 class { 'hdm':
   version => '0.0.4',
   hostname => 'pe-server-0-3a02cf',
   }
+}
+node '*node*' { 
+    include icinga2
 }
