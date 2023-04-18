@@ -29,7 +29,7 @@ mod 'golja-gnupg', :latest
 mod 'puppet-rvm', :latest
 mod 'puppet-systemd', :latest
 mod 'puppetlabs-powershell', :latest
-
+mod 'puppetlabs-chocolatey', :latest
 mod 'puppetlabs-vcsrepo', :latest
 mod 'puppetlabs-pwshlib', :latest
 
