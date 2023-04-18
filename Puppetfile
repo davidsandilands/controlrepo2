@@ -38,7 +38,7 @@ mod 'puppetlabs-registry', :latest
 mod 'icinga-icinga2', :latest
 mod 'puppetlabs-reboot', :latest
 mod 'puppetlabs-peadm', :latest
-mod 'puppetlabs-inifile', :latest
+
 mod 'puppetlabs-package', :latest
 mod 'puppetlabs-service', :latest
 mod 'puppet-format', :latest
