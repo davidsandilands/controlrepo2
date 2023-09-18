@@ -1,5 +1,5 @@
 ---
 message: "This node is using common data"
 puppet_enterprise::profile::certificate_authority::ca_ttl: '10'
-puppet_enterprise::profile::certificate_authority::auto_renewal_cert_ttl: '10s'
+puppet_enterprise::profile::certificate_authority::auto_renewal_cert_ttl: '20s'
 puppet_enterprise::profile::certificate_authority::allow_auto_renewal: true
