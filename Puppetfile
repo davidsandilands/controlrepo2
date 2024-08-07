@@ -52,10 +52,10 @@ mod 'puppet-format', :latest
 #  git:    'https://github.com/puppetlabs/puppetlabs-apache',
 #  branch: 'docs_experiment'
 
-mod 'puppetlabs-puppet_data_service',
-  git:    'https://github.com/puppetlabs/puppetlabs-puppet_data_service.git',
-  branch: 'main'
+#mod 'puppetlabs-puppet_data_service',
+#  git:    'https://github.com/puppetlabs/puppetlabs-puppet_data_service.git',
+#  branch: 'main'
 
-mod 'puppet_data_connector',
-  git:    'git@github.com:davidsandilands/puppetlabs-puppet_data_connector.git',
-  branch: 'main'
+#mod 'puppet_data_connector',
+#  git:    'git@github.com:davidsandilands/puppetlabs-puppet_data_connector.git',
+#  branch: 'main'
