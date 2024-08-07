@@ -15,7 +15,7 @@ mod 'WhatsARanjit-node_manager', :latest
 mod 'puppetlabs-motd', :latest
 mod 'puppet-grafana', :latest
 mod 'puppet-telegraf', :latest
-mod 'puppetlabs-apt', '8.5.0'
+mod 'puppetlabs-apt', :latest
 mod 'puppetlabs-inifile', :latest
 mod 'puppetlabs-influxdb', :latest
 mod 'puppet-splunk', :latest
@@ -23,7 +23,7 @@ mod 'puppet-archive', :latest
 mod 'puppetlabs-splunk_hec', :latest
 mod 'puppetlabs-pe_event_forwarding', :latest
 mod 'puppetlabs-pe_status_check', :latest
-mod 'puppetlabs-docker', '4.4.0'
+mod 'puppetlabs-docker', :latest
 mod 'betadots-hdm', :latest
 mod 'golja-gnupg', :latest
 mod 'puppet-rvm', :latest
@@ -33,15 +33,14 @@ mod 'puppetlabs-chocolatey', :latest
 mod 'puppetlabs-vcsrepo', :latest
 mod 'puppetlabs-pwshlib', :latest
 mod 'puppetlabs-ca_extend', :latest
-
 mod 'puppetlabs-registry', :latest
 mod 'icinga-icinga2', :latest
 mod 'puppetlabs-reboot', :latest
 mod 'puppetlabs-peadm', :latest
-
 mod 'puppetlabs-package', :latest
 mod 'puppetlabs-service', :latest
 mod 'puppet-format', :latest
+
 
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
@@ -57,10 +56,6 @@ mod 'puppetlabs-puppet_data_service',
   git:    'https://github.com/puppetlabs/puppetlabs-puppet_data_service.git',
   branch: 'main'
 
-mod 'puppet_operational_dashboards',
-  git:    'https://github.com/puppetlabs/puppet_operational_dashboards.git',
-  branch: 'main'
-
-mod 'test',
-  git:    'https://github.com/davidsandilands/test.git',
+mod 'puppet_data_connector',
+  git:    'git@github.com:davidsandilands/puppetlabs-puppet_data_connector.git',
   branch: 'main'
