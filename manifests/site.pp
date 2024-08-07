@@ -29,7 +29,7 @@ node default {
   # Example:
   #   class { 'my_class': }
 # Whatever classes are defined in the PDS, include them.
-include(pick(getvar('trusted.external.pds.classes'), []))
+# include(pick(getvar('trusted.external.pds.classes'), []))
 include motd
 }
 node 'pe-server-0-3a02cf.msicadrzxlxerlviydrr0jdv2f.zx.internal.cloudapp.net' {
