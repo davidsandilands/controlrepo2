@@ -38,6 +38,11 @@ class { 'puppet_data_connector':
   }
 }
 
+node 'ip-10-138-1-209.eu-west-1.compute.internal' {
+ class { 'splunk::enterprise': }
+}
+
+
 
 node 'pe-server-0-3a02cf.msicadrzxlxerlviydrr0jdv2f.zx.internal.cloudapp.net' {
 class { 'hdm':
