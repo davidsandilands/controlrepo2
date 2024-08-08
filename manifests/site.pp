@@ -39,13 +39,39 @@ class { 'puppet_data_connector':
 }
 
 node 'ip-10-138-1-209.eu-west-1.compute.internal' {
- class { 'splunk::enterprise': 
-  seed_password    => true,
-  password_hash    => '$6$jxSX7ra2SNzeJbYE$J95eTTMJjFr/lBoGYvuJUSNKvR7befnBwZUOvr/ky86QGqDXwEwdbgPMfCxW1/PuB/IkC94QLNravkABBkVkV1',
-  }
+ class { 'splunk::enterprise': }
 }
 
-
+node 'ip-10-138-1-40.eu-west-1.compute.internal' {
+  class { 'prometheus':
+  manage_prometheus_server => true,
+  version                  => '2.52.0',
+  scrape_configs           => [
+    {
+      'job_name'        => 'prometheus',
+      'scrape_interval' => '10s',
+      'scrape_timeout'  => '10s',
+      'static_configs'  => [
+        {
+          'targets' => ['localhost:9090'],
+          'labels'  => {'alias' => 'Prometheus'}
+        }
+      ],
+    },
+    {
+      'job_name'        => 'node',
+      'scrape_interval' => '5s',
+      'scrape_timeout'  => '5s',
+      'static_configs'  => [
+        {
+          'targets' => ['ec2-54-171-159-212.eu-west-1.compute.amazonaws.com:9100/'],
+          'labels'  => {'alias' => 'Node'}
+        },
+      ],
+    },
+  ],
+}
+}
 
 node 'pe-server-0-3a02cf.msicadrzxlxerlviydrr0jdv2f.zx.internal.cloudapp.net' {
 class { 'hdm':
