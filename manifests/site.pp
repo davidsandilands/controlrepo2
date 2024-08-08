@@ -30,7 +30,7 @@ node default {
   #   class { 'my_class': }
 # Whatever classes are defined in the PDS, include them.
 # include(pick(getvar('trusted.external.pds.classes'), []))
-# include motd
+include motd
 }
 node 'ec2-54-171-159-212.eu-west-1.compute.amazonaws.com' {
 class { 'puppet_data_connector':
