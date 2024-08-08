@@ -39,7 +39,7 @@ mod 'puppetlabs-registry', :latest
 #mod 'puppetlabs-package', :latest
 mod 'puppetlabs-service', :latest
 #mod 'puppet-format', :latest
-
+mod 'puppet-prometheus', :latest
 
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
