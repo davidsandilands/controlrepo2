@@ -40,6 +40,8 @@ class { 'puppet_data_connector':
 
 node 'ip-10-138-1-209.eu-west-1.compute.internal' {
  class { 'splunk::enterprise': }
+   seed_password    => true,
+   password_hash    => '$6$jxSX7ra2SNzeJbYE$J95eTTMJjFr/lBoGYvuJUSNKvR7befnBwZUOvr/ky86QGqDXwEwdbgPMfCxW1/PuB/IkC94QLNravkABBkVkV1',
 }
 
 
