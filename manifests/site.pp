@@ -34,6 +34,7 @@ node default {
 }
 node 'ec2-54-171-159-212.eu-west-1.compute.amazonaws.com' {
 class { 'puppet_data_connector':
+  dropzone => '/var/tmp',
   }
 }
 
