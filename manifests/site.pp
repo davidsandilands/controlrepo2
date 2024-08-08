@@ -48,7 +48,7 @@ node 'ip-10-138-1-40.eu-west-1.compute.internal' {
   version                  => '2.52.0',
   scrape_configs           => [
     {
-      'job_name'        => 'prometheus',
+      'job_name'        => 'prometheus1',
       'scrape_interval' => '10s',
       'scrape_timeout'  => '10s',
       'static_configs'  => [
