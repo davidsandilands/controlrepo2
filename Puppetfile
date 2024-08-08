@@ -57,5 +57,5 @@ mod 'puppetlabs-service', :latest
 #  branch: 'main'
 
 mod 'puppet_data_connector',
-  git:    'git@github.com:davidsandilands/puppetlabs-puppet_data_connector.git',
+  git:    'git@github.com:albatrossflavour/puppetlabs-puppet_data_connector.git',
   branch: 'main'
