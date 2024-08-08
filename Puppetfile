@@ -58,4 +58,4 @@ mod 'puppetlabs-service', :latest
 
 mod 'puppet_data_connector',
   git:    'git@github.com:albatrossflavour/puppetlabs-puppet_data_connector.git',
-  branch: 'main'
+  branch: 'bugfix_hiera_updates'
