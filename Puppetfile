@@ -2,24 +2,24 @@ forge 'https://forge.puppet.com'
 
 # Modules from the Puppet Forge
 # Versions should be updated to be the latest at the time you start
-#mod 'puppetlabs/inifile', :latest
-#mod 'puppetlabs/stdlib',  :latest
-#mod 'puppetlabs-concat', :latest
-#mod 'puppetlabs-apply_helpers', :latest
-#mod 'puppetlabs-bolt_shim', :latest
-#mod 'puppetlabs-firewall', :latest
-#mod 'puppetlabs-ruby_task_helper', :latest
-#mod 'puppetlabs-stdlib', :latest
-#mod 'puppetlabs-translate', :latest
+mod 'puppetlabs/inifile', :latest
+mod 'puppetlabs/stdlib',  :latest
+mod 'puppetlabs-concat', :latest
+mod 'puppetlabs-apply_helpers', :latest
+mod 'puppetlabs-bolt_shim', :latest
+mod 'puppetlabs-firewall', :latest
+mod 'puppetlabs-ruby_task_helper', :latest
+mod 'puppetlabs-stdlib', :latest
+mod 'puppetlabs-translate', :latest
 #mod 'WhatsARanjit-node_manager', :latest
-#mod 'puppetlabs-motd', :latest
-#mod 'puppet-grafana', :latest
+mod 'puppetlabs-motd', :latest
+mod 'puppet-grafana', :latest
 #mod 'puppet-telegraf', :latest
 #mod 'puppetlabs-apt', :latest
 #mod 'puppetlabs-inifile', :latest
 #mod 'puppetlabs-influxdb', :latest
-#mod 'puppet-splunk', :latest
-#mod 'puppet-archive', :latest
+mod 'puppet-splunk', :latest
+mod 'puppet-archive', :latest
 #mod 'puppetlabs-splunk_hec', :latest
 #mod 'puppetlabs-pe_event_forwarding', :latest
 #mod 'puppetlabs-pe_status_check', :latest
@@ -38,7 +38,7 @@ forge 'https://forge.puppet.com'
 #mod 'puppetlabs-reboot', :latest
 #mod 'puppetlabs-peadm', :latest
 #mod 'puppetlabs-package', :latest
-#mod 'puppetlabs-service', :latest
+mod 'puppetlabs-service', :latest
 #mod 'puppet-format', :latest
 
 
@@ -56,6 +56,6 @@ forge 'https://forge.puppet.com'
 #  git:    'https://github.com/puppetlabs/puppetlabs-puppet_data_service.git',
 #  branch: 'main'
 
-#mod 'puppet_data_connector',
-#  git:    'git@github.com:davidsandilands/puppetlabs-puppet_data_connector.git',
-#  branch: 'main'
+mod 'puppet_data_connector',
+  git:    'git@github.com:davidsandilands/puppetlabs-puppet_data_connector.git',
+  branch: 'main'
