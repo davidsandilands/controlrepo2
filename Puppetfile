@@ -3,13 +3,12 @@ forge 'https://forge.puppet.com'
 # Modules from the Puppet Forge
 # Versions should be updated to be the latest at the time you start
 mod 'puppetlabs/inifile', :latest
-#mod 'puppetlabs/stdlib',  :latest
+mod 'puppetlabs/stdlib',  :latest
 mod 'puppetlabs-concat', :latest
 mod 'puppetlabs-apply_helpers', :latest
 mod 'puppetlabs-bolt_shim', :latest
 mod 'puppetlabs-firewall', :latest
 mod 'puppetlabs-ruby_task_helper', :latest
-mod 'puppetlabs-stdlib', :latest
 mod 'puppetlabs-translate', :latest
 #mod 'WhatsARanjit-node_manager', :latest
 mod 'puppetlabs-motd', :latest
@@ -27,7 +26,7 @@ mod 'puppet-archive', :latest
 #mod 'betadots-hdm', :latest
 #mod 'golja-gnupg', :latest
 #mod 'puppet-rvm', :latest
-#mod 'puppet-systemd', :latest
+mod 'puppet-systemd', :latest
 #mod 'puppetlabs-powershell', :latest
 #mod 'puppetlabs-chocolatey', :latest
 #mod 'puppetlabs-vcsrepo', :latest
@@ -56,6 +55,6 @@ mod 'puppetlabs-service', :latest
 #  git:    'https://github.com/puppetlabs/puppetlabs-puppet_data_service.git',
 #  branch: 'main'
 
-mod 'puppet_data_connector',
-  git:    'git@github.com:albatrossflavour/puppetlabs-puppet_data_connector.git',
-  branch: 'bugfix_hiera_updates'
+#mod 'puppet_data_connector',
+#  git:    'git@github.com:albatrossflavour/puppetlabs-puppet_data_connector.git',
+#  branch: 'bugfix_hiera_updates'
