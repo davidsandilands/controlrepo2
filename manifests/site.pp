@@ -64,7 +64,7 @@ node 'ip-10-138-1-40.eu-west-1.compute.internal' {
       'scrape_timeout'  => '5s',
       'static_configs'  => [
         {
-          'targets' => ['ec2-54-171-159-212.eu-west-1.compute.amazonaws.com:9100/'],
+          'targets' => ['ec2-54-171-159-212.eu-west-1.compute.amazonaws.com:9100'],
           'labels'  => {'alias' => 'Node'}
         },
       ],
