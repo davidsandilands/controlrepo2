@@ -26,13 +26,13 @@ mod 'puppet-archive', :latest
 #mod 'betadots-hdm', :latest
 #mod 'golja-gnupg', :latest
 #mod 'puppet-rvm', :latest
-mod 'puppet-systemd', :latest
+mod 'puppet-systemd', '6.6.0'
 #mod 'puppetlabs-powershell', :latest
 #mod 'puppetlabs-chocolatey', :latest
 #mod 'puppetlabs-vcsrepo', :latest
 #mod 'puppetlabs-pwshlib', :latest
 #mod 'puppetlabs-ca_extend', :latest
-#mod 'puppetlabs-registry', :latest
+mod 'puppetlabs-registry', :latest
 #mod 'icinga-icinga2', :latest
 #mod 'puppetlabs-reboot', :latest
 #mod 'puppetlabs-peadm', :latest
