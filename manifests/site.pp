@@ -32,6 +32,12 @@ node default {
 # include(pick(getvar('trusted.external.pds.classes'), []))
 # include motd
 }
+node 'ec2-54-171-159-212.eu-west-1.compute.amazonaws.com' {
+class { 'puppet_data_connector':
+  }
+}
+
+
 node 'pe-server-0-3a02cf.msicadrzxlxerlviydrr0jdv2f.zx.internal.cloudapp.net' {
 class { 'hdm':
   version => '0.0.4',
